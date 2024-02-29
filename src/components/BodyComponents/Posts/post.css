@@ -1,0 +1,84 @@
+.post{
+  height: 255px;
+  width:100%;
+  background: #FFFFFF;
+  margin-top: 50px;
+  display: flex;
+  border-radius: 12px;
+  
+}
+.post h4{
+  Font:Inter;
+font-weight:700;
+Size:16px;
+line-height: 3px
+  
+}
+.post p {
+  Font:Inter;
+font-weight:400;
+Size:16px;
+line-height: 24px
+}
+.post-image{
+  height: 255px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.post-text-content{
+  height: 255px;
+  width: 660px;
+}
+.post-highlights{
+  height: 103px;
+}
+.post-name{
+  height: 72px;
+}
+.post-rating{
+  height: 160px;
+  width: 358px;
+  display: flex;
+  justify-content: center;
+}
+.view-button{
+  height: 80px;
+  width: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.view-button button{
+  width: 232px;
+height: 48px;
+top: 537px;
+left: 1051px;
+border-radius: 12px;
+background-color: #1B88F4;
+border: none;
+color: white;
+
+}
+.rating-badge{
+width: 135px;
+height: 118px;
+top: 347px;
+left: 1099px;
+border-radius: 0px, 0px, 12px, 12px;
+background-color: 
+#F3F9FF;
+justify-content: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.rating-badge p {
+  Font:Inter;
+font-weight:400;
+font-size: 2rem;
+line-height: 48px;
+}

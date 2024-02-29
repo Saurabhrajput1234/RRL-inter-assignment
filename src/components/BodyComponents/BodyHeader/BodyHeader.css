@@ -1,0 +1,56 @@
+.LastUpdated{
+  height: 50px;
+  border-bottom: 2px solid #d2cece;
+  border-top: 2px solid #d2cece;
+
+}
+.BodyHeader h1{
+  font-size: 3.5rem;
+  font-weight: 500;
+  margin: 18px;
+  color: #2C384A;
+}
+.BodyHeader{
+  height:200px;
+  width:100%;
+
+}
+.pathProcess{
+  height: 53px;
+  display: flex;
+  align-items: center;
+}
+
+/* links */
+.Body-navbar {
+  overflow: hidden;
+}
+
+.Body-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.Body-navbar ul li {
+  float: left;
+  margin-top: 23px;
+  background: #FFFFFF;
+  margin-inline-end: 39px;
+  border-radius: 12px;
+}
+
+.Body-navbar ul li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 12px 21px;
+  text-decoration: none;
+  border-radius: 12px;
+}
+
+.Body-navbar ul li a:hover {
+  background-color: #ddd;
+  color: black;
+}

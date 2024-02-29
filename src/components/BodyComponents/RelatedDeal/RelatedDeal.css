@@ -1,0 +1,85 @@
+.Related-deals-container{
+  width: 100%;
+  height: 520px;
+  
+}
+.Related-deals-container h2{
+  font-size: 2rem;
+  font-weight: 400;
+  color: #2C384A;
+  ;
+}
+.Cards-Related-deals{
+  height: 425px;
+  width: 100%;
+  display: flex;
+}
+
+.card{
+  width: 333px;
+height: 425px;
+border-radius: 12px;
+background: #FFFFFF;
+margin-inline: 13px;
+padding: 19px;
+
+
+}
+
+.card-image{
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tags{
+  display: flex;
+}
+.off-percentage{
+  width: 69px;
+height: 28px;
+border-radius: 8px; 
+background: #F2F4F7;
+padding-left: 8px;
+
+}
+.limited-time{
+  width: 100px;
+height: 28px;
+border-radius: 8px; 
+background: #F2F4F7;
+margin-left: 5px;
+padding-left: 8px;
+
+}
+.card-name{
+  display: flex;
+  justify-content: center;
+  height: 32px;
+  align-items: center;
+
+}
+.card-name h4 {
+  color: #626E79;
+}
+.price-box{
+  display: flex;
+  
+}
+.card-text{
+  height: 57px;
+
+}
+.price-box{
+  height: 38px;
+}
+.view-deal button{
+  width: 292px;
+height: 48px;
+top: 2150px;
+left: 1021px;
+border-radius: 12px;
+background: #1B88F4;
+
+
+}

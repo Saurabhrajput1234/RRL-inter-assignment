@@ -1,0 +1,36 @@
+.signup-container{
+  height: 125px;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 23px;
+  display: flex;
+  align-items: center;
+}
+.signup-container h2{
+  font-size: 2rem;
+  font-weight: 400;
+  color: #2C384A;
+
+}
+.sign-up-Heading{
+  width: 43%;
+  margin-right: 89px;
+  margin-left: 54px;
+}
+.email-input{
+  width: 348px;
+height: 47px;
+border-radius: 12px  0px  0px  12px;
+border: none;
+background: #FFFFFF;
+
+
+}
+.submit {
+  width: 97px;
+  height: 52px;
+  border-radius: 0px 12px 12px 0px;
+  background: #1B88F4;
+  border: none;
+  color: white;
+}
