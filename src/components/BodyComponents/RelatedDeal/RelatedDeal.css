@@ -121,7 +121,10 @@
 
   .card {
     width: 280px;
+    margin-inline: 0px;
 }
+.view-deal button {
+  width: 283px;}
 
 
 }

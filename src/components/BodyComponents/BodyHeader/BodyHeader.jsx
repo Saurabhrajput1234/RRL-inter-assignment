@@ -12,7 +12,6 @@ const BodyHeader = () => {
       <h1>Best Website builders in the US</h1>
       <div
         className="LastUpdated"
-        style={{ display: "flex", alignItems: "center" }}
       >
         <div className="check-img">
           <img src={check} alt="" />

@@ -16,8 +16,6 @@
   padding-left: 438px;
   padding-right: 159px;
 
-  
-
 }
 
 
@@ -76,6 +74,10 @@ p {
 
   .navbar-links.active {
     display: flex;
+    height: 157px;
+    width: 141px;
+    left: 206px;
+    border-radius: 12px;
   }
 
   .navbar-links a {

@@ -3,6 +3,8 @@
   border-bottom: 2px solid #d2cece;
   border-top: 2px solid #d2cece;
   color: #4B5665;
+  display: flex;
+  align-items:center ;
 
 }
 .BodyHeader h1{
@@ -28,6 +30,7 @@
   display: flex;
   align-items: center;
   color: #4B5665;
+  flex-wrap: wrap;
 }
 .pathProcess p {
   margin-inline: 16px;
@@ -43,6 +46,7 @@
   margin: 0;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .Body-navbar ul li {
@@ -69,4 +73,22 @@
 
 @media screen and (max-width: 360px) {
   .BodyHeader {
-    height: 608px;}}
+    height: 500px;}
+  
+    .BodyHeader h1 {
+      font-size: 1.5rem;
+    }
+
+    .LastUpdated {
+      height: 128px;
+      display: block;
+    }  
+
+    .top-relevant {
+      margin-left: 179px;
+    }
+
+
+   
+    
+  }

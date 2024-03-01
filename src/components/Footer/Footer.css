@@ -58,4 +58,13 @@
       display: flex;
       padding-left: 12px;
       padding-top: 46px;
+      padding-right: 23px;
+    }
+  
+    .Body-footer ul li {
+      margin-top: 15px;
+    }
+  
+    .Body-footer {
+      margin-left: 23px;
     }}
