@@ -64,9 +64,7 @@ color: white;
 .rating-badge{
 width: 135px;
 height: 118px;
-top: 347px;
-left: 1099px;
-border-radius: 0px, 0px, 12px, 12px;
+border-radius: 0px 0px 12px 12px;
 background-color: 
 #F3F9FF;
 justify-content: center;
@@ -77,7 +75,7 @@ align-items: center;
 }
 
 .rating-badge p {
-  Font:Inter;
+/* Font:Inter; */
 font-weight:400;
 font-size: 2rem;
 line-height: 48px;

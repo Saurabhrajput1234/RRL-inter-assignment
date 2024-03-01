@@ -2,6 +2,7 @@
   height: 50px;
   border-bottom: 2px solid #d2cece;
   border-top: 2px solid #d2cece;
+  color: #4B5665;
 
 }
 .BodyHeader h1{
@@ -13,12 +14,18 @@
 .BodyHeader{
   height:200px;
   width:100%;
+  color: #4B5665;
+  
 
 }
 .pathProcess{
   height: 53px;
   display: flex;
   align-items: center;
+  color: #4B5665;
+}
+.pathProcess p {
+  margin-inline: 16px;
 }
 
 /* links */
@@ -43,7 +50,7 @@
 
 .Body-navbar ul li a {
   display: block;
-  color: black;
+  color: #4B5665;
   text-align: center;
   padding: 12px 21px;
   text-decoration: none;

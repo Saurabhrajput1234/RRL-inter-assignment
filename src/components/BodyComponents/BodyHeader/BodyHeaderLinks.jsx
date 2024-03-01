@@ -7,11 +7,11 @@ const BodyHeaderLinks = () => {
     <div className="Body-navbar">
       <ul>
         <li><a href="/">Tools</a></li>
-        <li><a href="/about">AWS Builder</a></li>
-        <li><a href="/services">Start Build</a></li>
-        <li><a href="/contact">Build Supplies</a></li>
-        <li><a href="/contact">Tooling</a></li>
-        <li><a href="/contact">BlueHosting</a></li>
+        <li><a href="/">AWS Builder</a></li>
+        <li><a href="/">Start Build</a></li>
+        <li><a href="/">Build Supplies</a></li>
+        <li><a href="/">Tooling</a></li>
+        <li><a href="/">BlueHosting</a></li>
       </ul>
     </div>
       
