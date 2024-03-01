@@ -10,13 +10,18 @@
   font-weight: 500;
   margin: 18px;
   color: #2C384A;
+  padding-top: 36px;
 }
 .BodyHeader{
-  height:200px;
+  height:310px;
   width:100%;
   color: #4B5665;
   
 
+}
+.top-relevant{
+  margin-left: 495px;
+  display: flex;
 }
 .pathProcess{
   height: 53px;
@@ -44,7 +49,7 @@
   float: left;
   margin-top: 23px;
   background: #FFFFFF;
-  margin-inline-end: 39px;
+  margin-inline-end: 32px;
   border-radius: 12px;
 }
 
@@ -61,3 +66,7 @@
   background-color: #ddd;
   color: black;
 }
+
+@media screen and (max-width: 360px) {
+  .BodyHeader {
+    height: 608px;}}

@@ -1,11 +1,10 @@
-import React,{useState} from 'react'
-
+import React, { useState } from 'react'
 import "./Navbar.css";
 import SearchPost from './SearchPost';
 
 
 const Navbar = () => {
-   
+
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
 
   const toggleNavbar = () => {
@@ -14,35 +13,32 @@ const Navbar = () => {
 
 
   return (
-   <div style={{height:"57px"}}>
-    <div className="navbar" >
-      <div className="navbar-container">
-        
-        <SearchPost />
-       
-        <div className={`navbar-links ${isNavbarOpen ? 'active' : ''}`}>
-        
-          
-          <a href="/">Categories</a>
-          <a href="/Products">Website Builders</a>
-          
-          <a href="/signin">Today's deals</a>
+    <div style={{ height: "57px" }}>
+      <div className="navbar" >
+        <div className="navbar-container">
 
-    
+          <SearchPost />
+
+          <div className={`navbar-links ${isNavbarOpen ? 'active' : ''}`}>
 
 
-        </div>
-        
+            <a href="/">Categories</a>
+            <a href="/">Website Builders</a>
 
-        <div className="navbar-toggle" onClick={toggleNavbar}>
-          <span></span>
-          <span></span>
-          <span></span>
+            <a href="/">Today's deals</a>
+
+          </div>
+
+
+          <div className="navbar-toggle" onClick={toggleNavbar}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
       </div>
     </div>
-    </div>
-    
+
   )
 }
 

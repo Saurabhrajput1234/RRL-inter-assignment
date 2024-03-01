@@ -1,10 +1,10 @@
 .navbar {
-  background-color:black;
+  background-color:#212731;
   padding: 10px 0;
   position: fixed;
   width: 100vw;
   z-index: 5;
-  height: 57px;
+  height: 64px;
   border-bottom: 1px solid #d6d6d6;
   ;
 }
@@ -20,14 +20,6 @@
 
 }
 
-/* .navbar-logo {
-  color:black;
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-right: 630px;
-  padding-left: 20px;
-  text-decoration: none;
-} */
 
 .navbar-links {
   display: flex;
@@ -57,47 +49,38 @@
   display: block;
 }
 
-.addtoCart {
-  color: white;
-}
-.cart-length{
-  color: white;
-  height: 15px;
-  width: 15px;
-  border-radius: 50%;
-  background-color: red;
-  font-size: 0.7rem;
-  align-items: center;
-  display: flex;
-  align-items: center;
-  margin-left: -4px;
 
-}
+
 p {
   all: unset;
   padding: 4px;
 }
 
 @media screen and (max-width: 360px) {
+  .navbar-container {
+    padding-left: 20px; /* Adjust padding for smaller screens */
+    padding-right: 20px; /* Adjust padding for smaller screens */
+  }
+
   .navbar-links {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 60px;
-    right: 8px;
-    width: 27%;
+    top: 64px; /* Adjust top position based on your navbar height */
+    right: 0;
+    width: 100%;
     text-align: center;
-    align-items: center;
-  margin-right: 1px;
+    background: #212731; /* Background color for navbar links */
+    border-bottom: 1px solid #d6d6d6;
   }
 
   .navbar-links.active {
-      display: flex;
-      background: black;
-      z-index: 1;
-      border-radius: 5px;
-    
+    display: flex;
+  }
 
+  .navbar-links a {
+    padding: 10px; /* Adjust padding for smaller touch targets */
+    color: #ffffff; /* Change text color for better visibility */
   }
 
   .navbar-toggle {
@@ -106,29 +89,23 @@ p {
     margin-right: 15px;
   }
 
-  /* .navbar-logo {
-    color: #920606;
-    font-size: 0.8rem;
-    font-weight: bold;
-    margin-right: 1px;
-    padding-left: 8px;
-  } */
-  .SearchInput {
-    width: 129px;
-    height: 32px;
+  .navbar-toggle span {
+    height: 2px;
+    width: 20px;
+    background-color: #ffffff; /* Change toggle icon color for better visibility */
+    margin: 3px 0;
+    display: block;
   }
-  .button1 {
-    width: 47px;
-    height: 32px;
-  }
-  .SearchBox {
-  
-    width: 92px;
-    height: 32px;
-}
-element {
 
-  font-size: 1.2rem;
-}
-    
+  .SearchInput,
+  .button1,
+  .SearchBox {
+    width: auto; /* Adjust width as needed */
+    height: 32px; /* Adjust height as needed */
   }
+
+  p {
+    padding: 4px;
+    font-size: 1rem; /* Adjust font size for better readability */
+  }
+}

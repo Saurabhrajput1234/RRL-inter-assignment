@@ -1,4 +1,4 @@
-.signup-container{
+.signup-container {
   height: 125px;
   width: 100%;
   margin-top: 50px;
@@ -6,26 +6,30 @@
   display: flex;
   align-items: center;
 }
-.signup-container h2{
+
+.signup-container h2 {
   font-size: 2rem;
   font-weight: 400;
   color: #2C384A;
 
 }
-.sign-up-Heading{
+
+.sign-up-Heading {
   width: 43%;
   margin-right: 89px;
   margin-left: 54px;
 }
-.email-input{
+
+.email-input {
   width: 348px;
-height: 47px;
-border-radius: 12px  0px  0px  12px;
-border: none;
-background: #FFFFFF;
+  height: 47px;
+  border-radius: 12px 0px 0px 12px;
+  border: none;
+  background: #FFFFFF;
 
 
 }
+
 .submit {
   width: 97px;
   height: 52px;
@@ -34,3 +38,28 @@ background: #FFFFFF;
   border: none;
   color: white;
 }
+@media screen and (max-width: 360px) {
+ 
+  .signup-container {
+    height: 335px;}
+  
+  
+    .signup-container {
+      display: block;
+      
+    }
+  
+    .email-input {
+      width: 200px;
+      
+    
+    
+    }
+    .sign-up-Heading {
+      width: 99%;
+      margin-right: 89px;
+      margin-left: 47px;
+    }
+
+  
+  }

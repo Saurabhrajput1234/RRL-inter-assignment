@@ -1,0 +1,21 @@
+.body-container{
+  min-height: 100vh;
+  background: rgb(251, 252, 253);
+  padding-left: 170px;
+  padding-right: 170px;
+}
+
+@media screen and (max-width: 360px) {
+  .footer {
+  height: 442px;
+  background-color: #212731;
+  display: flex;
+  padding-left: 12px;
+  padding-top: 46px;
+}
+  .body-container {
+    padding-left: 20px; 
+    padding-right: 20px; /* Adjust padding for screens wider than 360px */
+    overflow: hidden;
+  }
+}
